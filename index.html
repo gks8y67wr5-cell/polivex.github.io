@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POLIVEX - Auto Reiniging</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; background-color:#000; color:#fff; }
+    header { background-color:#1a1a1a; padding:20px; text-align:center; border-bottom:3px solid #e60000; }
+    header img { max-width:200px; }
+    nav { background-color:#111; display:flex; justify-content:center; gap:30px; padding:15px; }
+    nav a { color:#e60000; text-decoration:none; font-weight:bold; }
+    nav a:hover { text-decoration:underline; }
+    section { padding:50px; text-align:center; }
+    h1,h2 { color:#e60000; }
+    .services, .gallery { display:flex; justify-content:center; flex-wrap:wrap; gap:20px; }
+    .service, .photo { background-color:#1a1a1a; padding:20px; border:2px solid #e60000; border-radius:10px; width:250px; }
+    footer { background-color:#111; color:#aaa; padding:20px; text-align:center; border-top:3px solid #e60000; }
+    input, textarea { width:100%; padding:10px; margin:10px 0; border:1px solid #e60000; border-radius:5px; background-color:#000; color:#fff; }
+    button { background-color:#e60000; color:#fff; border:none; padding:10px 20px; cursor:pointer; border-radius:5px; font-weight:bold; }
+    button:hover { background-color:#ff1a1a; }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="POLIVEX Logo">
+  <h1>POLIVEX - Auto Reiniging</h1>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">Over Ons</a>
+  <a href="#services">Diensten</a>
+  <a href="#gallery">Galerij</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+  <h2>Welkom bij POLIVEX</h2>
+  <p>Uw premium auto reiniging in Zwaagdijk-Oost.</p>
+</section>
+
+<section id="about">
+  <h2>Over Ons</h2>
+  <p>Bij POLIVEX bieden wij professionele autowas- en polijstdiensten. Onze missie is uw voertuig er altijd perfect uit te laten zien!</p>
+</section>
+
+<section id="services">
+  <h2>Diensten</h2>
+  <div class="services">
+    <div class="service">
+      <h3>Auto wassen</h3>
+      <p>Grondige reiniging van binnen en buiten.</p>
+    </div>
+    <div class="service">
+      <h3>Polijsten</h3>
+      <p>Breng uw lak terug naar zijn glans.</p>
+    </div>
+    <div class="service">
+      <h3>Interieur reinigen</h3>
+      <p>Stofzuigen en dieptereiniging van stoelen en vloeren.</p>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Galerij</h2>
+  <div class="gallery">
+    <div class="photo"><img src="car1.jpg" alt="Auto 1" width="250"></div>
+    <div class="photo"><img src="car2.jpg" alt="Auto 2" width="250"></div>
+    <div class="photo"><img src="car3.jpg" alt="Auto 3" width="250"></div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Adres: Zaadmarkt 39E, 1681PD Zwaagdijk-Oost</p>
+  <p>Telefoon: +31 6 18429351</p>
+  <p>Openingstijden: Maandag - Zaterdag: 09:00 - 18:00</p>
+  
+  <h3>Stuur ons een bericht</h3>
+  <form>
+    <input type="text" placeholder="Naam" required>
+    <input type="email" placeholder="E-mail" required>
+    <textarea placeholder="Bericht" rows="5" required></textarea>
+    <button type="submit">Verstuur</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 POLIVEX. Alle rechten voorbehouden.
+</footer>
+
+</body>
+</html>
